@@ -175,7 +175,6 @@ SNOWFLAKE_DB=H1B_DWH
 SNOWFLAKE_SCHEMA=PUBLIC
 ```
 
-> ⚠️ Never hardcode credentials in your code. This project stores all secrets securely in AWS S3 and reads them at runtime — no credentials are exposed in source code or version control.
 
 **4. Upload normalized CSVs to S3**
 ```bash
